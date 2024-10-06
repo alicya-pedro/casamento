@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes - Casamento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Itim&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <img src="fotos/logo.png" alt="Logo" class="logo">
+        <h1>Convite de Casamento</h1>
+    </header>
+    <div class="story-container">
+        <div class="left-panel">
+            <img src="fotos/imagem_lateral.png" alt="Casal">
+        </div>
+        <div class="right-panel story-text">
+            <h2>Amigos e Família</h2>
+            <p>É com muita alegria que convidamos vocês para o nosso casamento! A cerimônia e a festa acontecerá no dia <strong> 12 de abril de 2025 ás 11:00 horas na Rua Virgílio Jorge 773. </strong> Contaremos com um cerimonialista e seremos pontuais, por isso, pedimos que cheguem com pelo menos 20 minutos de antecedência. </p>  
+                <p>Preparamos uma lista de presentes com algumas experiências que vocês podem escolher para nos presentear. Fiquem à vontade para explorar as opções. 
+                </p>
+                <p>Para confirmar sua presença, basta clicar no botão abaixo. Estamos ansiosos para celebrar com vocês no nosso grande dia!</p>
+                <a href="https://forms.gle/foYQtMKqXVumU2iq9" class="confirm-button">Confirme aqui sua presença</a>
+            </div>
+    </div>
+    <div class="container">
+        <h2 class="gift-list-title">Lista de Presentes</h2>
+        <div class="gift-item" onclick="openQRCode('Gravata do Noivo')">
+            <img src="fotos/1.png" alt="Gravata do Noivo">
+            <button class="gift-button">Presentear</button>
+        </div>
+        <div class="gift-item" onclick="openQRCode('Brinde da Noite de Núpcia')">
+            <img src="fotos/2.png" alt="Brinde da Noite de Núpcia">
+            <button class="gift-button">Presentear</button>
+        </div>
+        <div class="gift-item" onclick="openQRCode('Reserva Lua de Mel')">
+            <img src="fotos/3.png" alt="Reserva Lua de Mel">
+            <button class="gift-button">Presentear</button>
+        </div>
+        <div class="gift-item" onclick="openQRCode('Kit Futuros Pais de Pet')">
+            <img src="fotos/4.png" alt="Kit Futuros Pais de Pet">
+            <button class="gift-button">Presentear</button>
+        </div>
+        <div class="gift-item" onclick="openQRCode('Aluguel de Bebê')">
+            <img src="fotos/5.png" alt="Aluguel de Bebê">
+            <button class="gift-button">Presentear</button>
+        </div>
+        <div class="gift-item" onclick="openQRCode('Primeiro Churrasco Casados')">
+            <img src="fotos/6.png" alt="Primeiro Churrasco Casados">
+            <button class="gift-button">Presentear</button>
+        </div>
+    </div>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.1264685618785!2d-51.19086962489912!3d-23.311169778972527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb5b503cad3cdd%3A0x51c7fe771c290e83!2sR.%20Vergilio%20Jorge%2C%20775%20-%20San%20Remo%2C%20Londrina%20-%20PR%2C%2086062-270!5e0!3m2!1spt-BR!2sbr!4v1728246719915!5m2!1spt-BR!2sbr" 
+            width="50%" 
+            height="400" 
+            style="border:15px solid #ccc;"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</body>
+</html>
